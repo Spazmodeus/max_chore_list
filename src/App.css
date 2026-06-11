@@ -1,3 +1,26 @@
+td {
+  width: clamp(30px, 100px, 150px);
+}
+
+td, label {
+  font-size: clamp(1rem, 15px, 25px);
+}
+
+table {
+  width: 90%
+}
+
+tbody > tr > td {
+  border-left: 1px solid rgba(128, 128, 128, 0.218);
+  border-right: 1px solid rgba(128, 128, 128, 0.218);
+}
+
+thead > tr > td {
+  border-left: 1px solid rgba(128, 128, 128, 0.218);
+  border-right: 1px solid rgba(128, 128, 128, 0.218);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.476);
+}
+
 input {
   margin: 10px
 }
